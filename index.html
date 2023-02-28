@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Methods for Adding CSS</title>
+  </head>
+  <body>
+    <div  class="box1">
+    <div class="odinlogo">
+      <div class="odin">
+      </div>
+      <div class="odintext">
+        odin
+      </div>
+    </div>
+
+    </div>
+    <div class="box2">
+      <div class="textboxs">
+        <div class="textbox1">
+          This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams.<br> 
+          Sign up now to get started.<br> <br> 
+          You know you want to.
+        </div>
+      </div>
+
+      <div class="inputbox">
+      <form action="">
+       
+        <div class="leftbox">
+          <label for="firstname">
+            first name
+            <input type="text" name="firstname" id="firstname" required>
+          </label>
+          <br>
+          <label for="email">
+            email
+            <input type="email" name="email" id="email"required>
+          </label>
+          <br>
+          <label for="pass">
+            Password
+            <input type="password" name="pass" id="pass" required>
+          </label>
+        </div>
+        <div class="rightbox">
+          <label for="LastName">
+            last name 
+            <input type="text" name="LastName" id="LastName" required>
+           </label>
+           <br>
+           <label for="number">
+            Phone
+            <input type="tel" name="number" id="number" required>
+          </label>
+          <br>
+          <label for="confirm-password">
+            confirm password
+            <input type="password" id="confirm-password" name="confirm-password" required pattern="^.{8,}$" oninput="checkPasswordMatch()">
+
+            <p id="password-mismatch" style="display:none">Passwords do not match!</p>
+          </label>
+        </div>
+       <br>
+       
+        <input type="submit" value="Submit" class="botton">
+      </form>
+      
+      </div>
+      <div class="linkedtext">
+        click for form new account 
+      </div>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
